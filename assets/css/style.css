@@ -10,7 +10,7 @@
 
 :root {
     --cor-padrao:#ff523b;
-    --cor-pabrao: #f3b2e5;
+    --cor-pabrao-hover: #f3b2e5;
     --cor-fonte: #fff;
     --cor-fonte-p: #555;
     --cor-btn: #563434;
@@ -18,4 +18,56 @@
     --cor-btn-fonte: #000;
     --cor-fonte-corpo: #555;
     --cor-fonte-corpo-lave: #777;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner {
+    background-image: radial-gradient(var(--cor-pabrao-hover), var(--cor-padrao));
+}
+
+.banner .row {
+    margin-top: 70px;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--cor-fonte);
+}
+
+.banner p {
+    color: var(--cor-fonte);
+}
+
+p {
+    color: var(--cor-fonte-p);
 }
