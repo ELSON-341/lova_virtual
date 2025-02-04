@@ -22,6 +22,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
 .banner {
@@ -174,4 +175,31 @@ p {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
+}
+
+h4 {
+    color: var(--cor-fonte-corpo);
+    font-weight: normal;
+}
+
+.col-4 p {
+    font-size: 14px;
+}
+
+.classification ion-icon {
+    color: var(--cor-padrao);
+}
+
+.offers {
+    background-image: radial-gradient(var(--cor-pabrao-hover), var(--cor-padrao));
+    margin-top: 80px;
+    padding: 30px;
+}
+
+.col-2 .offer-img {
+    padding: 50px;
+}
+
+small {
+    color: var(--cor-btn-fonte);
 }
