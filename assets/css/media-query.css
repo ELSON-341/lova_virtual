@@ -19,11 +19,12 @@
         background-color: var(--cor-btn-fonte);
         width: 100%;
         overflow: hidden;
-
+        transition: max-height 0.5s;
     }
 
     .menu-mobile {
         display: flex;
+        cursor: pointer;
     }
 
     nav ul li {
@@ -34,4 +35,34 @@
     nav ul li a {
         color: var(--cor-fonte);
     }
+}
+
+@media only screen and (max-width: 600px) {
+    .row {
+        text-align: center;
+    }
+
+    .col-2,
+    .col-3,
+    .col-4 {
+        flex-basis: 45%;
+    }
+
+    .testimony .col-3 {
+        flex-basis: 100%;
+    }
+
+    .col-2 h1 {
+        font-size: 27px;
+    }
+
+    .footer-col-3,
+    .footer-col-4 {
+        text-align: center;
+    }
+
+    .col-4 p {
+        font-size: 24px;
+    }
+
 }

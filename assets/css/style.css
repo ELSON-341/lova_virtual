@@ -344,6 +344,6 @@ footer hr {
 .menu-mobile span {
     display: block;
     height: 3px;
-    width: 30px;
+    width: 100%;
     background-color: var(--cor-btn-fonte);
 }
