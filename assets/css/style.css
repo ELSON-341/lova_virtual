@@ -130,7 +130,7 @@ p {
 
 .col-3 {
     flex-basis: 30%;
-    max-width: 250px;
+    min-width: 250px;
     margin-bottom: 30px;
 }
 
@@ -142,7 +142,7 @@ p {
 
 .col-4 {
     flex-basis: 25%;
-    max-width: 200px;
+    min-width: 200px;
     padding: 10px;
     margin-bottom: 50px;
     transition: transform .5s;
