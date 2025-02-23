@@ -1,7 +1,5 @@
 const menuItens = document.querySelector('#menu-itens');
-
-console.log(menuItens);
-
+const menuMobile = document.querySelector('.menu-mobile')
 
 menuItens.style.maxHeight = "0px";
 
@@ -11,4 +9,6 @@ function clikMobile() {
     } else {
         menuItens.style.maxHeight = '0px';
     }
+
+    menuMobile.classList.toggle('active')    
 }
