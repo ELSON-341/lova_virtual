@@ -35,6 +35,10 @@
     nav ul li a {
         color: var(--cor-fonte);
     }
+
+    .new-menu nav ul li a {
+        color: var(--cor-fonte);
+    }
 }
 
 @media only screen and (max-width: 600px) {

@@ -347,6 +347,7 @@ footer hr {
     height: 3px;
     width: 100%;
     background-color: var(--cor-btn-fonte);
+    transition: all 0.4s ease-in-out;
 }
 
 .menu-mobile.active span:nth-child(1){
@@ -363,4 +364,12 @@ footer hr {
 
 .menu-mobile.active span {
     transition: transform .4s ease, opacity .3s ease;
+}
+
+.new-menu nav ul li a {
+    color: var(--cor-btn-fonte);
+}
+
+.new-menu {
+    box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.1);
 }
