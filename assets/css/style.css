@@ -373,3 +373,38 @@ footer hr {
 .new-menu {
     box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.1);
 }
+
+.row-2 {
+    margin: 100px auto 50px;
+    justify-content: space-between;
+}
+
+.row-2 select {
+    padding: 5px;
+    border: 1px solid var(--cor-padrao);
+}
+
+.row-2 select:focus {
+    outline: none;
+}
+
+.pagination {
+    margin: 0 auto 80px;
+}
+
+.pagination span {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border: 1px solid var(--cor-padrao);
+    text-align: center;
+    line-height: 40px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.pagination span:hover {
+    background-color: var(--cor-padrao);
+    color: var(--cor-fonte);
+}
