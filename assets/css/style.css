@@ -480,3 +480,7 @@ footer hr {
     flex-basis: 32%;
     cursor: pointer;
 }
+
+.see-product .col-2 img {
+    margin: 0;
+}
