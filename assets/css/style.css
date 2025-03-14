@@ -482,6 +482,10 @@ footer hr {
     cursor: pointer;
 }
 
+.img-col img:hover {
+    border: 2px solid var(--cor-padrao);
+}
+
 .see-product .col-2 img {
     margin: 0;
     padding: 0;
