@@ -69,4 +69,13 @@
         font-size: 24px;
     }
 
+    .see-product .row {
+        text-align: left;
+    }
+
+    .see-product h1 {
+        font-size: 26px;
+        line-height: 26px;
+    }
+
 }
