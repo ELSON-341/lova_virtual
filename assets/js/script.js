@@ -10,7 +10,7 @@ function clikMobile() {
         menuItens.style.maxHeight = '0px';
     }
 
-    menuMobile.classList.toggle('active') 
+    menuMobile.classList.toggle('active')
 }
 
 const productImg = document.getElementById('productImg')
