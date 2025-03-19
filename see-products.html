@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/media-query.css">
+    <script src="assets/js/script.js" defer></script>
     <title>Loja virtual</title>
 </head>
 
@@ -39,19 +40,19 @@
     <div class="body-category see-product">
         <div class="row">
             <div class="col-2">
-                    <img src="assets/img/galeria/galeria-1.jpg" alt="Roupa" id="productImg">
+                    <img src="assets/img/galeria/galeria-1.jpg" data-zoom-image="assets/img/galeria/galeria-1.jpg" alt="Roupa" id="productImg">
                 <div class="row-img">
                     <div class="img-col">
-                        <img src="assets/img/galeria/galeria-1.jpg" alt="Roupa" width="100%" class="miniature-product">
+                        <img src="assets/img/galeria/galeria-1.jpg" data-image="assets/img/galeria/galeria-1.jpg" alt="Roupa" width="100%" class="miniature-product">
                     </div>
                     <div class="img-col">
-                        <img src="assets/img/galeria/galeria-3.jpg" alt="Roupa" width="100%" class="miniature-product">
+                        <img src="assets/img/galeria/galeria-3.jpg" data-image="assets/img/galeria/galeria-3.jpg" alt="Roupa" width="100%" class="miniature-product">
                     </div>
                     <div class="img-col">
-                        <img src="assets/img/galeria/galeria-4.jpg" alt="Roupa" width="100%" class="miniature-product">
+                        <img src="assets/img/galeria/galeria-4.jpg" data-image="assets/img/galeria/galeria-4.jpg" alt="Roupa" width="100%" class="miniature-product">
                     </div>
                     <div class="img-col">
-                        <img src="assets/img/galeria/galeria-5.jpg" alt="Roupa" width="100%" class="miniature-product">
+                        <img src="assets/img/galeria/galeria-5.jpg" data-image="assets/img/galeria/galeria-5.jpg" alt="Roupa" width="100%" class="miniature-product">
                     </div>
                 </div>
             </div>
@@ -177,7 +178,10 @@
             </p>
         </div>
     </footer>
-    <script src="assets/js/script.js"></script>
+    <!-- jQuery  -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Plugin elevateZoom -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/elevatezoom/3.0.8/jquery.elevatezoom.min.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
