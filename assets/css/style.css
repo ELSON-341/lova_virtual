@@ -491,3 +491,12 @@ footer hr {
     padding: 0;
     
 }
+
+#gallery_01 img {
+    border: 2px solid white;
+}
+
+/*Change the colour*/
+.active img {
+    border: 2px solid #333 !important;
+}

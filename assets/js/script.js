@@ -31,3 +31,14 @@ miniatureProduct[2].addEventListener('mouseover', () => {
 miniatureProduct[3].addEventListener('mouseover', () => {
     productImg.src = miniatureProduct[3].src
 })
+
+$('#productImg').ezPlus({
+    gallery: 'gallery_01', cursor: 'pointer', galleryActiveClass: 'active',
+    imageCrossfade: true, loadingIcon: 'http://www.elevateweb.co.uk/spinner.gif'
+});
+
+$('.row-img').bind('click', function (e) {
+    var ez = $('.row-zoom').data('ezPlus');
+    $.fancyboxPlus(ez.getGalleryList());
+    return false;
+});
