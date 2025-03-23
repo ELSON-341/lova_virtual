@@ -529,3 +529,22 @@ td img {
     height: 80px;
     margin-right: 10px;
 }
+
+.total-value {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.total-value table {
+    border-top: 1px solid var(--cor-padrao);
+    width: 100%;
+    max-width: 420px;
+}
+
+td:last-child {
+    text-align: right;
+}
+
+th:last-child {
+    text-align: right;
+}
