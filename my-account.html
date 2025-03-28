@@ -42,7 +42,26 @@
                 <div class="col-2">
                     <img src="assets/img/banner-1.png" alt="" width="100%">
                 </div>
-                <div class="col-2"></div>
+                <div class="col-2">
+                    <div class="form">
+                        <div class="btn-form">
+                            <span onclick="enter()">Entrar</span>
+                            <span onclick="register()">Casdastar</span>
+                            <hr id="indicator">
+                        </div>
+                        <form action="" method="post" id="enterPanel">
+                            <input type="email" name="email" id="email" placeholder="E-mail de acesso">
+                            <input type="password" name="password" id="password" placeholder="Digite sua senha">
+                            <button type="submit" name="sandEnter" class="btn">Entrar</button>
+                        </form>
+                        <form action="" method="post" id="register">
+                            <input type="text" name="name" id="name" placeholder="Name completo">
+                            <input type="email" name="email" id="email" placeholder="E-mail de acesso">
+                            <input type="password" name="password" id="password" placeholder="Digite sua senha">
+                            <button type="submit" name="sanEnter" class="btn">Cadastre-se</button>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
