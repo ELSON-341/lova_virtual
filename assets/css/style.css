@@ -563,7 +563,7 @@ th:last-child {
     margin: auto;
     background-color: var(--cor-fonte);
     box-shadow: 30px 0 20px rgba(0, 0, 0, 0.1);
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 .form span {
@@ -585,6 +585,7 @@ th:last-child {
     top: 110px;
     max-width: 300px;
     padding: 0 20px;
+    transition: transform 1s;
 }
 
 .form form input {
